@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+
+# Build output
+build/
+dist/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencies installed via npm or yarn
+package-lock.json
+yarn.lock
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Output of npm or yarn commands
+npm-debug.log
+yarn-error.log
+
+# User-specific files
+*.iml
+*.swp
